@@ -1,10 +1,7 @@
 package com.ablack13.fxexample.view
 
 import javafx.scene.layout.HBox
-import tornadofx.View
-import tornadofx.item
-import tornadofx.menu
-import tornadofx.menubar
+import tornadofx.*
 
 class HeaderView : View() {
     private val controller: HeaderViewController by inject()
@@ -22,6 +19,7 @@ class HeaderView : View() {
                 menu("Help") {
                     item("About")
                 }
+                fitToParentWidth()
             }
         }
     }

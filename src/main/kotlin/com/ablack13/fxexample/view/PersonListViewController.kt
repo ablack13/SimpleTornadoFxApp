@@ -5,7 +5,7 @@ import javafx.collections.FXCollections
 import javafx.collections.ObservableList
 import tornadofx.Controller
 
-class PersonOverviewViewController : Controller() {
+class PersonListViewController : Controller() {
     private val personList = FXCollections.observableArrayList<Person>()
 
     init {
